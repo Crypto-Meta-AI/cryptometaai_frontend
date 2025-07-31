@@ -1,33 +1,33 @@
 import React from 'react';
-// import assistantIcon from '../../assets/assistant.png';  // You can replace with your actual asset path
-// import chatIcon from '../../assets/chat.png';
-// import productivityIcon from '../../assets/productivity.png';
-// import secureIcon from '../../assets/secure.png';
+ import assistantIcon from '../../assets/aiagent.png';  // You can replace with your actual asset path
+ import chatIcon from '../../assets/Natural.png';
+ import productivityIcon from '../../assets/boost.png';
+ import secureIcon from '../../assets/smart.png';
 
 const Tradingsignal = () => {
   const sections = [
     {
       title: 'Your 24/7 Digital Assistant —',
       description: `AI Agents never sleep. They’re always ready to answer, solve, and assist — anytime, anywhere. From customer queries to task planning, your assistant is always on.`,
-      // image: assistantIcon,
+       image: assistantIcon,
       reverse: false
     },
     {
       title: 'Natural Conversations, Human-Like Flow —',
       description: `Talk to an AI agent just like you would to a teammate. Forget robotic scripts — the conversation flows naturally with empathy, memory, and logic.`,
-      // image: chatIcon,
+      image: chatIcon,
       reverse: true
     },
     {
       title: 'Boost Productivity by 10x —',
       description: `Let AI agents take over repetitive tasks, data entry, research, and notifications — freeing you to focus on strategy, creativity, and growth.`,
-      // image: productivityIcon,
+      image: productivityIcon,
       reverse: false
     },
     {
       title: 'Smart, Secure, and Scalable —',
       description: `AI Agents are built with enterprise-grade encryption, privacy, and reliability — ready to scale with your team while keeping your data safe.`,
-      // image: secureIcon,
+      image: secureIcon,
       reverse: true
     }
   ];

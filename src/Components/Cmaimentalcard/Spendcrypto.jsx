@@ -1,29 +1,32 @@
 import React from 'react';
-
+import spent from "../../assets/spent.png";
+import linkwallet from "../../assets/linkwaleet.png";
+import assistantIcon from "../../assets/Business.png";
+import useuber from "../../assets/useuber.png";
 const Spendcrypto = () => {
   const sections = [
     {
       title: '🌐 Spend Crypto Anywhere —',
-      // image: assistantIcon,
+       image: spent,
       description: `Use your crypto like cash in everyday life — shop online, book travel, dine out, or buy groceries, wherever major cards are accepted, globally and seamlessly.`,
       reverse: false
 
     },
     {
       title: '📱 Link to Wallet or Exchange —',
-      // image: assistantIcon,
+       image: linkwallet,
       description: `Connect your crypto wallet or exchange directly to your card for automatic payments — no need to manually load or convert, just swipe and go with real-time access.`,
       reverse: true
     },
     {
       title: '💼 Business & Personal Use Friendly —',
-      // image: assistantIcon,
+       image: assistantIcon,
       description: `Perfect for freelancers, remote workers, and global teams — use the card for personal shopping, client payments, business expenses, or cross-border crypto settlements with ease.`,
       reverse: false
     },
     {
       title: '🚗 Use for Fuel, Shopping & More —',
-      // image: assistantIcon,
+      image: useuber,
       description: `From groceries to Netflix, Uber rides to flights — pay for everyday services and subscriptions using your crypto balance without the need to convert manually or wait.`,
       reverse: true
     }
@@ -49,7 +52,7 @@ const Spendcrypto = () => {
                 src={section.image}
                 alt={section.title}
                 className="img-fluid rounded feature-img"
-                style={{ maxHeight: "300px", objectFit: "contain" }}
+                style={{ maxHeight: "400px", objectFit: "contain" }}
               />
               {/* Optional image section */}
             </div>
