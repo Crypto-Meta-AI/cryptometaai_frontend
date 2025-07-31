@@ -1,0 +1,17 @@
+.bg-about{
+    background-color: #009996;
+    
+}
+.about-title {
+  /* font-size: 2.9rem; */
+  font-weight: 400 !important;
+  color: #fff;
+  font-family: FKGrotesk, sans-serif;
+}
+
+.about-description {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #f8f9fa;
+  text-align: justify;
+}
