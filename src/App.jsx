@@ -4,7 +4,7 @@ import { useState } from 'react'
 import './App.css'
 import Homepage from './Components/Homepage.jsx'
 import { BrowserRouter as Router, Routes, Route  } from 'react-router-dom';
-import Layout from './Components/layout.jsx'
+import Layout from './Components/Layout.jsx'
 import Realtimenews from './Components/cryptonews/Realtimenews.jsx'
 import Smartfilter from './Components/cryptonews/Smartfilter.jsx'
 import Sentiment from './Components/cryptonews/Sentiment.jsx'
