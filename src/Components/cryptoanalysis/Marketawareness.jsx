@@ -1,43 +1,43 @@
 import React from 'react';
-// import dashboardImg from "../../assets/dashboard.png";  // Make sure to add your image in this path
-// import exchangeImg from "../../assets/exchange.png";    // Optional second image if needed
 
-const Unifiedmarket = () => {
+const Marketawareness = () => {
   const sections = [
     {
-      title: '📊 One Dashboard. Every Coin',
-      description: `No more switching apps — track Bitcoin, Ethereum, Altcoins, NFTs, DeFi and more in a single view. All your market data, beautifully organized in one interface.`,
+      title: '🕵️‍♂️ Stay One Step Ahead',
+      description: `Daily analysis helps you catch trends early before the market reacts.`,
       reverse: false,
-      // image: dashboardImg
     },
     {
-      title: '📱 Mobile & Web Friendly',
-      description: `Seamlessly track your portfolio and market data anytime, anywhere. Enjoy synchronized access across devices with a responsive, user-friendly layout.`,
+      title: '📅 Consistency is Profit Power',
+      description: `Monitoring daily moves builds strong trading habits and sharp instincts.`,
       reverse: true,
-      // image: dashboardImg
     },
     {
-      title: '🌐 Global Exchange Rates',
-      description: `Compare crypto prices across Binance, Coinbase, Kraken, KuCoin, and more — all in one place. See where you get the best rates before making any trade.`,
+      title: '🚨 Catch Breakouts in Real-Time',
+      description: `Spot bullish breakouts or bearish crashes as they happen — not after.`,
       reverse: false,
-      // image: exchangeImg
-    }
+    },
+    {
+      title: '🧠 Turn Noise into Insights',
+      description: `Filter out hype and FOMO — focus on what the charts and volumes really say.`,
+      reverse: true,
+    },
   ];
 
   return (
     <div className='text-white' style={{ backgroundColor: 'black' }}>
       <div className="container py-5">
         <div className='text-center display-4' style={{ fontWeight: "400" }}>
-          Unified Market Dashboard
+          Stay Ahead with Daily Market Awareness
         </div>
         <div className="text-center mb-5 mt-3" style={{ fontSize: "19px" }}>
-          “One platform. Every asset. Total control.”
+          “Spot trends early and make smarter moves before the crowd does.”
         </div>
 
         {sections.map((section, index) => (
           <div
             key={index}
-            className={`d-flex justify-content-center mb-5`}
+            className="d-flex justify-content-center mb-5"
           >
             <div className={`row align-items-center ${section.reverse ? 'flex-row-reverse' : ''} card p-4 w-100`} style={{ maxWidth: "1000px", backgroundColor: "#1c1c1c", borderRadius: "20px" }}>
               <div className='row'>
@@ -61,10 +61,9 @@ const Unifiedmarket = () => {
             </div>
           </div>
         ))}
-
       </div>
     </div>
   );
 };
 
-export default Unifiedmarket;
+export default Marketawareness;

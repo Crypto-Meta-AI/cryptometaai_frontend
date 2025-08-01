@@ -21,7 +21,13 @@ import Portfoliotracking from './Components/Marketdata/Portfoliotracking.jsx';
 import Realtimedata from './Components/Marketdata/Realtimedata.jsx';
 import Smartanalysis from './Components/Marketdata/Smartanalysis.jsx';
 import Unifiedmarket from './Components/Marketdata/Unifiedmarket.jsx';
-
+//tracking system
+import Whaletracking from './Components/Whaleswallet/Whaletracking.jsx';
+import Whalebehavior from './Components/Whaleswallet/Whalebehavior.jsx';
+//cryptoanalysis
+import Marketawareness from './Components/cryptoanalysis/Marketawareness.jsx';
+import Smartriskmanagement from './Components/cryptoanalysis/Smartriskmanagement.jsx'
+import Datadrivenstrategy from './Components/cryptoanalysis/Datadrivenstrategy.jsx';
 function App() {
   // const [count, setCount] = useState(0)
 
@@ -46,6 +52,13 @@ function App() {
           <Route path='/realtimedata' element={<Layout><Realtimedata/></Layout>}/>
           <Route path='/smartanalysis' element={<Layout><Smartanalysis/></Layout>}/>
           <Route path='/unifiedmarket' element={<Layout><Unifiedmarket/></Layout>}/>
+          {/* tracking  */}
+          <Route path='/whaletracking' element={<Layout><Whaletracking/></Layout>}/>
+          <Route path='/whalebehavior' element={<Layout><Whalebehavior/></Layout>}/>
+          {/* analysis */}
+          <Route path='/marketawareness' element={<Layout><Marketawareness/></Layout>}/>
+          <Route path='/smartriskmanagement' element={<Layout><Smartriskmanagement/></Layout>}/>
+          <Route path='/datadrivenstrategy' element={<Layout><Datadrivenstrategy/></Layout>}/>
           {/* about */}
 
           

@@ -1,40 +1,50 @@
 import React from 'react';
-// import dashboardImg from "../../assets/dashboard.png";  // Make sure to add your image in this path
-// import exchangeImg from "../../assets/exchange.png";    // Optional second image if needed
 
-const Unifiedmarket = () => {
+const Whalebehavior = () => {
   const sections = [
     {
-      title: '📊 One Dashboard. Every Coin',
-      description: `No more switching apps — track Bitcoin, Ethereum, Altcoins, NFTs, DeFi and more in a single view. All your market data, beautifully organized in one interface.`,
+      title: '🔎 Follow the Smartest Money',
+      description: `Track top crypto whale wallets to discover exactly what the biggest players are buying, selling, or holding — stay one step ahead.`,
       reverse: false,
-      // image: dashboardImg
     },
     {
-      title: '📱 Mobile & Web Friendly',
-      description: `Seamlessly track your portfolio and market data anytime, anywhere. Enjoy synchronized access across devices with a responsive, user-friendly layout.`,
+      title: '🚨 Real-Time Whale Alerts',
+      description: `Get instant alerts when whales move millions. Stay informed about large transactions and token swaps as they happen — no delay.`,
       reverse: true,
-      // image: dashboardImg
     },
     {
-      title: '🌐 Global Exchange Rates',
-      description: `Compare crypto prices across Binance, Coinbase, Kraken, KuCoin, and more — all in one place. See where you get the best rates before making any trade.`,
+      title: '📈 Predict Market Moves Early',
+      description: `Whale behavior often signals the next big move. Spot pumps, dumps, and reversals before the crowd by watching on-chain actions.`,
       reverse: false,
-      // image: exchangeImg
-    }
+    },
+    {
+      title: '💡 See Through the Noise',
+      description: `Ignore hype. Rely on real-time, transparent on-chain whale activity instead of speculation from social media or influencers.`,
+      reverse: true,
+    },
+    {
+      title: '🧠 Smart Wallet Insights',
+      description: `Not all whales are the same — understand if a wallet belongs to a trader, long-term holder, institution, or insider. Analyze behavior, not just transactions.`,
+      reverse: false,
+    },
+    {
+      title: '🛡️ Protect Yourself From Dumps',
+      description: `Receive alerts when whales start moving assets to exchanges. Exit positions before major dumps and protect your investments.`,
+      reverse: true,
+    },
   ];
 
   return (
     <div className='text-white' style={{ backgroundColor: 'black' }}>
       <div className="container py-5">
         <div className='text-center display-4' style={{ fontWeight: "400" }}>
-          Unified Market Dashboard
+          Whale Behavior & Market Prediction
         </div>
         <div className="text-center mb-5 mt-3" style={{ fontSize: "19px" }}>
-          “One platform. Every asset. Total control.”
+          “Understand the big players to predict the big moves.”
         </div>
 
-        {sections.map((section, index) => (
+         {sections.map((section, index) => (
           <div
             key={index}
             className={`d-flex justify-content-center mb-5`}
@@ -61,10 +71,9 @@ const Unifiedmarket = () => {
             </div>
           </div>
         ))}
-
       </div>
     </div>
   );
 };
 
-export default Unifiedmarket;
+export default Whalebehavior;
