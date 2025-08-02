@@ -64,7 +64,7 @@ const Header = () => {
     <>
       {/* Top Navbar */}
       <nav className="navbar navbar-expand-lg navbar-dark bg-black px-4">
-        <a className="navbar-brand d-flex align-items-center" href="#home">
+        <a className="navbar-brand d-flex align-items-center" href="/">
           <img src={logo} alt="Logo" className="logo" />
         </a>
 
