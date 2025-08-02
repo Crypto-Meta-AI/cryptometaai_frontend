@@ -4,6 +4,7 @@ import  pic1 from "../assets/1.png"
 import pic2 from "../assets/2.png"
 import pic3 from "../assets/3.png"
 import pic4 from "../assets/4.png"
+import "../css/intro.css"
 const Intro = () => {
   return (
     <>
@@ -11,7 +12,7 @@ const Intro = () => {
         <div className="container py-5 ">
           <div className="row align-items-center">
             <div className="col-lg-6 text-center text-lg-start mb-4 mb-lg-0">
-              <img src={pic} width={350} className="img-fluid" alt="CryptoMetaAI Visual" />
+              <img src={pic} width={350} className="img-fluid metaai" alt="CryptoMetaAI Visual" />
             </div>
             <div className="col-lg-6">
               <div className="display-5 intro mb-3 text-white" style={{ fontWeight: "500" }}>What is CryptoMetaAI</div>
@@ -32,14 +33,14 @@ const Intro = () => {
         <h2 className="display-5 mb-5" style={{ fontWeight: "500" }}>Why Choose CryptoMetaAI?</h2>
         <div className="row">
           <div className="col-md-6 col-lg-3 mb-4">
-            <div className="p-3 h-100 border rounded shadow-sm">
+            <div className="p-3 h-100 border rounded shadow-sm whycard">
             <img src={pic1} width={100} />
               <h5 className="mb-2 mt-2">Decentralized & Secure</h5>
               <p>Built on blockchain, ensuring trustless, transparent, and secure transactions for all users and AI agents.</p>
             </div>
           </div>
           <div className="col-md-6 col-lg-3 mb-4">
-            <div className="p-3 h-100 border rounded shadow-sm">
+            <div className="p-3 h-100 border rounded shadow-sm whycard">
             <img src={pic2} width={100} />
               <h5 className="mb-2">AI-Powered Intelligence</h5>
               <p>Leverages smart AI agents that learn, adapt, and work autonomously in favor of the user’s goals.</p>
@@ -47,14 +48,14 @@ const Intro = () => {
           </div>
           
           <div className="col-md-6 col-lg-3 mb-4">
-            <div className="p-3 h-100 border rounded shadow-sm">
+            <div className="p-3 h-100 border rounded shadow-sm whycard">
             <img src={pic3} width={100} />
               <h5 className="mb-2">Metaverse Integration</h5>
               <p>Enables immersive, intelligent virtual environments with real asset ownership and cross-world interaction.</p>
             </div>
           </div>
           <div className="col-md-6 col-lg-3 mb-4">
-            <div className="p-3 h-100 border rounded shadow-sm">
+            <div className="p-3 h-100 border rounded shadow-sm whycard">
             <img src={pic4} width={100} />
               <h5 className="mb-2">User-Centric Vision</h5>
               <p>CryptoMetaAI prioritizes data privacy, digital freedom, and value returning directly to creators and users.</p>

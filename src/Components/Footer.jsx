@@ -1,6 +1,7 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import logo from '../assets/logo1.png';
+import pic from "../assets/pic.png"
 const Footer = () => {
   return (
     <footer className="bg-dark text-light pt-5 pb-4">
@@ -41,13 +42,11 @@ const Footer = () => {
           </div>
 
           {/* CTA Box */}
-          {/* <div className="col-12 col-md-3">
-            <div className="bg-success text-dark p-4 rounded text-center h-100 d-flex align-items-center justify-content-center">
-              <a href="#" className="text-decoration-none text-dark fw-semibold fs-5">
-                Join Today →
-              </a>
+          <div className="col-12 col-md-3">
+            <div className=" d-flex align-items-center justify-content-center">
+               <img src={pic} width={200} className="img-fluid" alt="CryptoMetaAI Visual" />
             </div>
-          </div> */}
+          </div>
         </div>
 
         <hr className="border-secondary my-4" />

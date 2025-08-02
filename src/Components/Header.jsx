@@ -20,7 +20,9 @@ const Header = () => {
 
   const subCategories = {
     'AI Services': ['Smarter Than Chatbots: Intelligent Evolving Agents', 'Your Productivity Partner', ' Connected, Customizable & Global'],
-    'Crypto Analysis': [' Stay Ahead with Daily Market Awareness', 'Smarter Risk Management','Build a Data-Driven Strategy'],
+    'Crypto Analysis': [' Stay Ahead with Daily Market Awareness', 'Smarter Risk Management',
+      // 'Build a Data-Driven Strategy'
+    ],
     'Market Data': ['Unified Market Dashboard', 'Real-Time Data & Alerts', 'Smart Analysis Tools', 'Portfolio & Profit Tracking'],
     'Whales Wallet Tracking System': ['Whale Behavior & Market Prediction' ,'Advanced Tracking Tools & Custom Alerts'],
     'CMAI Metal Card': [' Spend Freely, Live Flexibly', 'Smarter Finance in Real Time', 'Control, Rewards & Security'],
@@ -39,7 +41,7 @@ const Header = () => {
     ' Connected, Customizable & Global': '/portfolio-ai',
     ' Stay Ahead with Daily Market Awareness': '/marketawareness',
     'Smarter Risk Management': '/smartriskmanagement',
-    'Build a Data-Driven Strategy': '/datadrivenstrategy',
+    // 'Build a Data-Driven Strategy': '/datadrivenstrategy',
     'Unified Market Dashboard': '/unifiedmarket',
     'Real-Time Data & Alerts': '/realtimedata',
     'Smart Analysis Tools': '/smartanalysis',

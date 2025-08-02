@@ -1,0 +1,27 @@
+@keyframes flip {
+  0% {
+    transform: rotateY(0deg);
+  }
+  50% {
+    transform: rotateY(180deg);
+  }
+  100% {
+    transform: rotateY(360deg);
+  }
+}
+
+.metaai {
+  animation: flip 4s linear infinite;
+  transform-style: preserve-3d;
+}
+  .whycard {
+    transition: transform 0.2s ease, background-color 0.4s ease, box-shadow 0.3s ease;
+    border-radius: 10px;
+  }
+  
+  .whycard:hover {
+    transform: scale(1.05);
+    background-color: #b4b5ba;
+    /* color: rgb(255, 255, 255); */
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+  }
