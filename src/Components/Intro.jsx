@@ -9,7 +9,7 @@ const Intro = () => {
   return (
     <>
       <div className='bg-black'>
-        <div className="container py-5 ">
+        <div className="container py-5" id='intro'>
           <div className="row align-items-center">
             <div className="col-lg-6 text-center text-lg-start mb-4 mb-lg-0">
               <img src={pic} width={350} className="img-fluid metaai" alt="CryptoMetaAI Visual" />

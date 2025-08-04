@@ -1,26 +1,33 @@
 import React from 'react';
-
+import pic1 from "../../assets/stepahead.png";
+import pic2 from "../../assets/profitpower.png";
+import pic3 from "../../assets/catch.png";
+import pic4 from "../../assets/insights.png";
 const Marketawareness = () => {
   const sections = [
     {
       title: '🕵️‍♂️ Stay One Step Ahead',
-      description: `Daily analysis helps you catch trends early before the market reacts.`,
+      description: `Daily market analysis empowers you to identify emerging trends before they become obvious to the broader market. By reviewing data and patterns every day, you can anticipate movements, optimize your entry and exit points, and make more informed trading decisions — giving you a competitive edge in a fast-changing environment.`,
       reverse: false,
+      image: pic1,
     },
     {
       title: '📅 Consistency is Profit Power',
-      description: `Monitoring daily moves builds strong trading habits and sharp instincts.`,
+      description: `Tracking the market daily reinforces discipline and helps develop reliable trading habits. Over time, this consistent practice sharpens your instincts, improves decision-making, and increases your chances of making steady profits — turning routine into a powerful edge.`,
       reverse: true,
+      image: pic2,
     },
     {
       title: '🚨 Catch Breakouts in Real-Time',
-      description: `Spot bullish breakouts or bearish crashes as they happen — not after.`,
+      description: `Stay alert to market shifts as they unfold. Real-time analysis lets you spot bullish breakouts or bearish crashes the moment they happen, so you can act immediately — maximizing gains or minimizing losses before the opportunity slips away.`,
       reverse: false,
+      image: pic3,
     },
     {
       title: '🧠 Turn Noise into Insights',
-      description: `Filter out hype and FOMO — focus on what the charts and volumes really say.`,
+      description:`In a market full of distractions and hype, daily analysis helps you stay grounded. By focusing on charts, volume, and real data, you can filter out emotional noise like FOMO and make smart, objective trading decisions based on actual market behavior.`,
       reverse: true,
+      image: pic4,
     },
   ];
 
