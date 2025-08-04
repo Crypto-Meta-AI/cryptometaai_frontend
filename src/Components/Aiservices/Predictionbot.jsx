@@ -1,8 +1,8 @@
 import React from 'react';
- import botIcon from '../../assets/ai.png';
- import superIcon from '../../assets/ai2.png';
-import learnIcon from '../../assets/a3.png';
- import industryIcon from '../../assets/ai4.png';
+ import botIcon from '../../assets/ai.jpg';
+ import superIcon from '../../assets/ai2.jpg';
+import learnIcon from '../../assets/a3.jpg';
+ import industryIcon from '../../assets/ai4.jpg';
 
 const Predictionbot = () => {
   const sections = [

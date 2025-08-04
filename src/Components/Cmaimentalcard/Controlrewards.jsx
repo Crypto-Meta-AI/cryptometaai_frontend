@@ -1,6 +1,6 @@
 import React from 'react';
-import earnreward from "../../assets/earnrewards.png";
-import security from "../../assets/security.png";
+import earnreward from "../../assets/earnrewards.jpg";
+import security from "../../assets/security.jpg";
 const Controlrewards = () => {
   const sections = [
     {

@@ -1,8 +1,8 @@
 import React from 'react';
- import assistantIcon from '../../assets/aiagent.png';  // You can replace with your actual asset path
- import chatIcon from '../../assets/Natural.png';
- import productivityIcon from '../../assets/boost.png';
- import secureIcon from '../../assets/smart.png';
+ import assistantIcon from '../../assets/aiagent.jpg';  // You can replace with your actual asset path
+ import chatIcon from '../../assets/Natural.jpg';
+ import productivityIcon from '../../assets/boost.jpg';
+ import secureIcon from '../../assets/smart.jpg';
 
 const Tradingsignal = () => {
   const sections = [

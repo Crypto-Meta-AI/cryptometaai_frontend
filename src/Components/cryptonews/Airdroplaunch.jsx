@@ -37,7 +37,7 @@ const Airdroplaunch = () => {
           {upcomingEvents.map((event, index) => (
             <div className="col-md-4 mb-4" key={index}>
               <div className="card h-100  text-white shadow">
-                <img src={event.image} className="card-img-top" alt={event.name} />
+                {/* <img src={event.image} className="card-img-top" alt={event.name} /> */}
                 <div className="card-body">
                   <h5 className="card-title text-dark">{event.name}</h5>
                   <p className="card-text text-dark">{event.description}</p>

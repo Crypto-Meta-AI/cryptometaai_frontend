@@ -1,8 +1,8 @@
 import React from 'react';
-import pic1 from "../../assets/stepahead.png";
-import pic2 from "../../assets/profitpower.png";
-import pic3 from "../../assets/catch.png";
-import pic4 from "../../assets/insights.png";
+import pic1 from "../../assets/stepahead.jpg";
+import pic2 from "../../assets/profitpower.jpg";
+import pic3 from "../../assets/catch.jpg";
+import pic4 from "../../assets/insights.jpg";
 const Marketawareness = () => {
   const sections = [
     {

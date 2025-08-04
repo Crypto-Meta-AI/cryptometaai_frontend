@@ -1,6 +1,6 @@
 import React from 'react';
-// import platformIcon from '../../assets/platform.png';
-// import globalIcon from '../../assets/global.png';
+import platformIcon from '../../assets/platformintegrate.png';
+import globalIcon from '../../assets/CulturallyAware.png';
 // import industryIcon from '../../assets/industry.png';
 
 const Portfolioai = () => {
@@ -8,13 +8,13 @@ const Portfolioai = () => {
     {
       title: 'Seamless Platform Integration —',
       description: `AI Agents integrate with your existing tech stack — from emails and CRMs to communication tools like Slack. No disruption, just automation. Let them handle repetitive workflows while you focus on decision-making.`,
-      // image: platformIcon,
+      image: platformIcon,
       reverse: false
     },
     {
       title: 'Multilingual & Culturally Aware —',
       description: `AI Agents speak your user’s language. Whether your team or customers are in Europe, Asia, or the Americas, these agents provide localized support with native fluency — ensuring communication is always smooth.`,
-      // image: globalIcon,
+      image: globalIcon,
       reverse: true
     },
     {
@@ -38,12 +38,12 @@ const Portfolioai = () => {
             key={index}
             className={`row align-items-center mb-5 ${section.reverse ? 'flex-row-reverse' : ''}`}
           >
-            <div className="col-md-6 mb-4 mb-md-0">
+            <div className="col-md-6 mb-4 mb-md-0 ">
               <img
                 src={section.image}
                 alt={section.title}
                 className="img-fluid rounded feature-img"
-                style={{ maxHeight: "300px", objectFit: "contain" }}
+                style={{ maxHeight: "400px", objectFit: "contain" }}
               />
             </div>
             <div className="col-md-6">

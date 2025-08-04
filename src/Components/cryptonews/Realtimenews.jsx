@@ -1,8 +1,8 @@
 import React from 'react';
  import marketIcon from '../../assets/market.png';
- import alertIcon from '../../assets/alert.png';
-import priceIcon from '../../assets/price.png';
- import briefIcon from '../../assets/brief.png';
+ import alertIcon from '../../assets/alert.jpg';
+import priceIcon from '../../assets/price.jpg';
+ import briefIcon from '../../assets/brief.jpg';
 // import '../css/realtimenews.css';
 
 

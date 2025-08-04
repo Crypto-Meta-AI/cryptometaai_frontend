@@ -1,8 +1,8 @@
 import React from 'react';
-import spent from "../../assets/spent.png";
-import linkwallet from "../../assets/linkwaleet.png";
-import assistantIcon from "../../assets/Business.png";
-import useuber from "../../assets/useuber.png";
+import spent from "../../assets/spent.jpg";
+import linkwallet from "../../assets/linkwaleet.jpg";
+import assistantIcon from "../../assets/Business.jpg";
+import useuber from "../../assets/useuber.jpg";
 const Spendcrypto = () => {
   const sections = [
     {

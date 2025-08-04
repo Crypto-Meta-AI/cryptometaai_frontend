@@ -1,6 +1,6 @@
 import React from 'react'
- import sentimentImg from '../../assets/sentiment.png'         // placeholder image for sentiment analysis
- import influencerImg from '../../assets/influencer.png'       // placeholder image for influencer tweets
+ import sentimentImg from '../../assets/sentiment.jpg'         // placeholder image for sentiment analysis
+ import influencerImg from '../../assets/influencer.jpg'       // placeholder image for influencer tweets
 
 const Sentiment = () => {
   return (
