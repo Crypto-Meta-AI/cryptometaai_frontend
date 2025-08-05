@@ -1,7 +1,7 @@
 import React from 'react';
-import platformIcon from '../../assets/platformintegrate.png';
-import globalIcon from '../../assets/CulturallyAware.png';
-// import industryIcon from '../../assets/industry.png';
+import platformIcon from '../../assets/platformintegrate.jpg';
+import globalIcon from '../../assets/CulturallyAware.jpg';
+ import industryIcon from '../../assets/industry.jpg';
 
 const Portfolioai = () => {
   const sections = [
@@ -20,7 +20,7 @@ const Portfolioai = () => {
     {
       title: 'Industry-Trained Intelligence —',
       description: `Whether it's finance, healthcare, e-commerce, or SaaS — AI agents can be tailored with specific workflows, terminology, and compliance needs. They don’t just understand — they specialize.`,
-      // image: industryIcon,
+      image: industryIcon,
       reverse: false
     }
   ];

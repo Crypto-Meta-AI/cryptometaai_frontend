@@ -1,19 +1,19 @@
 import React from 'react';
-// import portfolioImg from "../../assets/portfolio.png"; // Optional image
-
+import portfolioImg from "../../assets/portfolioimg.jpg"; // Optional image
+import commandcenter from "../../assets/commandcenter.jpg"; // Optional image
 const Portfoliotracking = () => {
   const sections = [
     {
       title: '💼 Simplified Portfolio View',
       description: `Monitor your ROI, profits, losses, and trade history across wallets and exchanges — all in one unified dashboard. Know exactly where you stand, anytime.`,
       reverse: false,
-      // image: portfolioImg
+      image: portfolioImg
     },
     {
       title: '🌟 Your Crypto Command Center',
       description: `Whether you're a daily trader or long-term HODLer, this is your go-to hub. Get a real-time pulse on your portfolio, with the tools and insights you need to act fast.`,
       reverse: true,
-      // image: portfolioImg
+      image: commandcenter
     }
   ];
 

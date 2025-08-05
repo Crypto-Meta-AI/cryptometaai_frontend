@@ -1,26 +1,26 @@
 import React from 'react';
-// import analyticsIcon from '../../assets/analytics.png';  // Add your own icons
-// import aiIcon from '../../assets/ai.png';
-// import newsIcon from '../../assets/news.png';
+import analyticsIcon from '../../assets/analytics.jpg';  // Add your own icons
+import aiIcon from '../../assets/aiicon.jpg';
+import newsIcon from '../../assets/news.jpg';
 
 const Smartanalysis = () => {
   const sections = [
     {
       title: '📈 Advanced Analytics —',
       description: `Master market movements with powerful tools like candlestick charts, RSI, MACD, market cap tracking, and dominance trends — all in one unified interface designed for traders and analysts.`,
-      // image: analyticsIcon,
+      image: analyticsIcon,
       reverse: false
     },
     {
       title: '🧠 AI-Powered Insights —',
       description: `Let AI do the heavy lifting — get predictive insights, sentiment analysis, and historical pattern recognition powered by machine learning. Know where the market might move — before it happens.`,
-      // image: aiIcon,
+      image: aiIcon,
       reverse: true
     },
     {
       title: '📰 News + Price Integration —',
       description: `Stay updated with real-time news directly linked to price spikes, volume changes, or dips. Filter irrelevant noise and focus only on news with real, measurable market impact.`,
-      // image: newsIcon,
+      image: newsIcon,
       reverse: false
     }
   ];

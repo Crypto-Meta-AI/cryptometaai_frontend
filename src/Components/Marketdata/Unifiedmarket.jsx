@@ -1,26 +1,26 @@
 import React from 'react';
-// import dashboardImg from "../../assets/dashboard.png";  // Make sure to add your image in this path
-// import exchangeImg from "../../assets/exchange.png";    // Optional second image if needed
-
+import dashboardImg from "../../assets/unifiedmarket.jpg";  // Make sure to add your image in this path
+ import exchangeImg from "../../assets/mobileweb.png";    // Optional second image if needed
+import exchange from "../../assets/exchangerate.jpg";
 const Unifiedmarket = () => {
   const sections = [
     {
       title: '📊 One Dashboard. Every Coin',
       description: `No more switching apps — track Bitcoin, Ethereum, Altcoins, NFTs, DeFi and more in a single view. All your market data, beautifully organized in one interface.`,
       reverse: false,
-      // image: dashboardImg
+      image: dashboardImg
     },
     {
       title: '📱 Mobile & Web Friendly',
       description: `Seamlessly track your portfolio and market data anytime, anywhere. Enjoy synchronized access across devices with a responsive, user-friendly layout.`,
       reverse: true,
-      // image: dashboardImg
+      image: exchangeImg
     },
     {
       title: '🌐 Global Exchange Rates',
       description: `Compare crypto prices across Binance, Coinbase, Kraken, KuCoin, and more — all in one place. See where you get the best rates before making any trade.`,
       reverse: false,
-      // image: exchangeImg
+      image: exchange
     }
   ];
 

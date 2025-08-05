@@ -12,9 +12,9 @@ const Footer = () => {
           <div className="col-12 col-md-3">
             <h5 className="mb-3">About CryptoMetaAI</h5>
             <ul className="list-unstyled text-muted">
-              <li><a href="#" className="text-decoration-none text-secondary">Our Vision</a></li>
-              <li><a href="#" className="text-decoration-none text-secondary">Developers Hub</a></li>
-              <li><a href="#" className="text-decoration-none text-secondary">Roadmap</a></li>
+              <li><a href="/" className="text-decoration-none text-secondary">Our Vision</a></li>
+              <li><a href="/" className="text-decoration-none text-secondary">Developers Hub</a></li>
+              <li><a href="/" className="text-decoration-none text-secondary">Roadmap</a></li>
               {/* <li><a href="#" className="text-decoration-none text-secondary">Blog</a></li> */}
             </ul>
           </div>
@@ -34,10 +34,10 @@ const Footer = () => {
           <div className="col-12 col-md-3">
             <h5 className="mb-3">Connect with Us</h5>
             <ul className="list-unstyled text-muted">
-              <li><a href="#" className="text-decoration-none text-secondary">X (Twitter)</a></li>
-              <li><a href="#" className="text-decoration-none text-secondary">GitHub</a></li>
-              <li><a href="#" className="text-decoration-none text-secondary">Telegram</a></li>
-              <li><a href="#" className="text-decoration-none text-secondary">Discord</a></li>
+              <li><a href="https://x.com/CryptoMeta_AI" target='_blank' className="text-decoration-none text-secondary">X (Twitter)</a></li>
+              <li><a href="https://t.me/cryptometaaiofficial"  target="_blank" className="text-decoration-none text-secondary">Telegram</a></li>
+              <li><a href="https://www.instagram.com/cryptometaai_official"  target='_blank'  className="text-decoration-none text-secondary">Instagram</a></li>
+             
             </ul>
           </div>
 
@@ -55,11 +55,11 @@ const Footer = () => {
         <div className="d-flex flex-column flex-md-row justify-content-between text-muted small">
        <img src={logo} alt="Logo" className="logo" />
           <div className='text-white text-end mt-4'>© 2025 CryptoMetaAI. All rights reserved.</div>
-          <div className="mt-4 mt-md-0">
+          {/* <div className="mt-4 mt-md-0">
             <a href="#" className="text-decoration-none text-secondary me-3">Privacy</a>
             <a href="#" className="text-decoration-none text-secondary me-3">Terms of Use</a>
             <a href="#" className="text-decoration-none text-secondary">Cookie Policy</a>
-          </div>
+          </div> */}
         </div>
       </div>
     </footer>
