@@ -1,6 +1,6 @@
 import React from 'react';
 import analyticsIcon from '../../assets/analytics.jpg';  // Add your own icons
-import aiIcon from '../../assets/aiicon.jpg';
+import aiIcon from '../../assets/Aiicon.jpg';
 import newsIcon from '../../assets/news.jpg';
 
 const Smartanalysis = () => {
