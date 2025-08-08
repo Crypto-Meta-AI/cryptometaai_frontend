@@ -1,6 +1,6 @@
 import React from 'react';
 import '../css/about.css';
-
+// import BuySellswap from './BuySellswap';
 const About = () => {
   return (
     <section className="about-section bg-about text-white py-5" id="about">
@@ -15,6 +15,7 @@ const About = () => {
               <br /><br />
               CryptoMetaAI is more than just blockchain infrastructure. It’s a movement toward a smarter, more inclusive internet—where AI works for everyone, not just the few.
             </p>
+            {/* <BuySellswap /> */}
           </div>
         </div>
       </div>

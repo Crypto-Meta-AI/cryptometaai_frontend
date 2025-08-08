@@ -6,7 +6,7 @@ const Controlrewards = () => {
     {
       title: 'Earn Rewards in Crypto',
       description: `Earn Rewards in Crypto refers to the ability to receive cryptocurrency as a reward every time you make a purchase using a crypto card. Instead of traditional cashback or loyalty points, users earn a percentage of their spending back in popular cryptocurrencies like Bitcoin, Ethereum, or stablecoins. 
-      For example, if you spend ₹1,000 with a card offering 2% crypto cashback, you receive ₹20 worth of crypto. These rewards can also include staking bonuses or platform-specific tokens, helping users grow their crypto holdings simply by spending. It’s an easy and passive way to accumulate digital assets while using crypto in everyday life.`,  reverse: false,
+      For example, if you spend $1,000 with a card offering 2% crypto cashback, you receive $20 worth of crypto. These rewards can also include staking bonuses or platform-specific tokens, helping users grow their crypto holdings simply by spending. It’s an easy and passive way to accumulate digital assets while using crypto in everyday life.`,  reverse: false,
       image: earnreward
     },
     {
